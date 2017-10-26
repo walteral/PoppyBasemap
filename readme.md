@@ -26,4 +26,4 @@ Some of the images I took inspiration from are:
 ![Poppy Fields2](https://ak9.picdn.net/shutterstock/videos/9511649/thumb/1.jpg)
 
 
-To see the amazing poppy inspired map created by Alex Walters for GEOG 371 at Oregon State click [HERE] (https://walteral.github.io/PoppyBasemap/)
+To see the amazing poppy inspired map created by Alex Walters for GEOG 371 at Oregon State click [HERE](https://walteral.github.io/PoppyBasemap/)

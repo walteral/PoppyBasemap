@@ -23,6 +23,7 @@ Design: The reasoning behind the color design is trying to depict a Poppy field.
 
 Some of the images I took inspiration from are:
 ![Poppy Fields](http://c8.alamy.com/comp/BNP7BY/poppy-fields-in-sunshine-on-the-marlborough-downs-wiltshire-england-BNP7BY.jpg)
+[
 ![Poppy Fields2] (https://ak9.picdn.net/shutterstock/videos/9511649/thumb/1.jpg)
 
 

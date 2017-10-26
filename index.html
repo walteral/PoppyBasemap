@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poppy Basemap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html {
+            /*full screen the map*/
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+            integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+            crossorigin=""></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css" rel='stylesheet'/>
+    <!-- Javascript Libraries -->
+    <!-- mapbox gl js -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js"></script>
+
+    <!-- leaflet mapbox js -->
+    <script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+
+
+
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+    var map = L.map('map').setView([44.565095, -123.278298], 14);
+
+    mapbox_token = 'pk.eyJ1Ijoid2FsdGVyYWwiLCJhIjoiY2o4dzY4ZXhnMWxvNDMzcDBlY2Q3dGNzeiJ9.AgdPJV7J12PdM_YqggHbfg';
+
+    var gl = L.mapboxGL({
+        accessToken: mapbox_token,
+        style: 'assets/style.json',
+        attribution: 'Created By <a href="https://github.com/walteral/">Alex Walters</a> based on the <a href="assets/license.txt">Mapbox basic style</a>'
+    }).addTo(map);
+
+
+</script>
+</body>
+</html>
